@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fluid layout</title>
+        <style>
+            body{
+                margin: 0;
+                padding: 0;
+            }
+            header{
+                background-color: firebrick;
+            }
+            h1{
+                font-size: 40px;
+                color: white;
+            }
+            .wrapper{
+                padding: 30px;
+                max-width: 1200px;
+                margin: auto;
+            }
+            .column{
+                background-color: lightgray;
+                min-height: 400px;
+                font-size: 20px;
+                line-height: 150%;
+                padding: 30px;
+                box-sizing: border-box;
+            }
+            #div1{
+                float: left;
+                width: 32%;
+                margin-right: 2%;
+            }
+            #div2{
+                float: right;
+                width: 66%;
+
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="wrapper">
+                <h1>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</h1>
+            </div>
+        </header>
+        <div class="wrapper">
+            <div class="column" id="div1">
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti.</p>
+                <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.</p>
+
+            </div>
+            <div class="column" id="div2">
+                <p>Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna.</p>
+                <p>Praesent dapibus, neque id cursus faucibus, tortor neque egestas auguae, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</p>
+            </div>
+        </div>
+
+    </body>
+</html>

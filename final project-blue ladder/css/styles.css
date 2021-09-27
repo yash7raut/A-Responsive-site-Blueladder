@@ -1,0 +1,170 @@
+body{
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 180%;
+    color: #505050;
+    min-width: 510px;
+}
+.wrapper{
+    max-width: 1200px;
+    padding: 0px 30px;
+    margin: auto;
+}
+.clearfix::after{
+    clear: both;
+    display: table;
+    content: "";
+}
+header{
+    height: 600px;
+    background-image: url("../images/bg.png");
+    background-size: cover;
+}
+.header-small{
+    height: 240px;
+}
+nav ul{
+    list-style-type: none;
+
+}
+nav ul li{
+    float: left;
+    padding: 25px 50px 25px 0px;
+
+}
+nav ul .li-last{
+    padding-right: 0;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+nav ul li a:hover{
+    color: #7cccff;
+}
+.link-active{
+    color: #7cccff;
+}
+#brand{
+    text-align: center;
+    padding-top: 100px;
+
+}
+#brand img{
+    height: 70px;
+}
+#brand h1{
+    font-size: 78px;
+    color:#7cccff;
+    line-height: 70%;
+    padding-top: 20px;
+
+}
+#brand-small{
+    padding-top: 20px;
+
+}
+#brand-small img{
+    float: left;
+    height: 70px;
+    padding-right: 10px;
+    margin-top: -8px;
+}
+#brand-small h1{
+    font-size: 50px;
+    color:white;
+    line-height: 100%;
+    padding-top: 20px;
+    margin-top: -8px;
+
+}
+#brand h1 span{
+    color: white;
+    font-size: 44px;
+    font-weight: normal;
+}
+section{
+    padding: 50px 0;
+
+}
+.intro{
+    text-align: center;
+
+}
+section p{
+    padding: 5px 0px;
+
+}
+.text-lg{
+    font-size: 20px;
+}
+.bg-gray{
+    background-color: #f5f5f5;
+
+
+}
+h2{
+    font-size: 32px;
+    color: #7cccff;
+    padding-bottom: 20px;
+
+
+}
+.why{
+    list-style-type: disc;
+    list-style-position: inside;
+
+}
+.team-img{
+    float: right;
+    padding: 0px 0px 15px 15px;
+}
+h3{
+    font-size: 20px;
+    padding-bottom: 5px;
+
+}
+.about-list{
+    list-style-type: disc;
+    list-style-position: inside;
+}
+.service-block{
+    float: left;
+    width: 32%;
+    min-width: 300px;
+    margin-right: 2%;
+    background-color: #f5f5f5;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.service-block-last{
+    margin-right: 0;
+
+}
+.service-block img{
+    width: 100%;
+    margin-bottom: 15px;
+
+}
+.service-block h3{
+    font-size: 20px;
+
+}
+.google-map{
+    float: right;
+    margin: 0 0 20px 20px;
+}
+footer{
+    background-color: #404040;
+    color: white;
+    text-align: center;
+    padding: 15px 0px;
+    font-size: 14px;
+}
+
